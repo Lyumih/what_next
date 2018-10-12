@@ -47,3 +47,43 @@
 Шаг 2 (done, info)
 
 Шаг 3 (do, info)
+
+# JSON для помощника
+Открыть на сайте https://jsoneditoronline.org/?id=baa1b887f7d346d09185bca662b9a378
+{
+  "helper": {
+    "name": "Мяу-кот создатель сайтов",
+    "discripton": "Кот помогает создать сайты новичкам",
+    "steps": [
+      {
+        "name": "Чем я могу вам помочь?",
+        "status": "process",
+        "info": {
+          "link": "www.lernjs.ru",
+          "description": "ссылка на описание 1 шага помощника",
+          "status": "lern"
+        },
+        "actions": [
+          {
+            "name": "Создать новый проект",
+            "status": "do",
+            "info": {
+              "link": "www.lernjs.ru",
+              "description": "ссылка на описание 1 шага 1 действия помощника",
+              "learn": true
+            }
+          },
+          {
+            "name": "Открыть существующий проект",
+            "status": "process",
+            "info": {
+              "link": "www.lernjs.ru",
+              "description": "ссылка на описание 1 шага 2 действия помощника",
+              "learn": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
