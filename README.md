@@ -49,7 +49,8 @@
 Шаг 3 (do, info)
 
 # JSON для помощника
-Открыть на сайте https://jsoneditoronline.org/?id=baa1b887f7d346d09185bca662b9a378
+Открыть на сайте https://jsoneditoronline.org/?id=baa1b887f7d346d09185bca662b9a378  
+
 {
   "helper": {
     "name": "Мяу-кот создатель сайтов",
