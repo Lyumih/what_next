@@ -50,6 +50,7 @@
 
 # JSON для помощника
 Открыть на сайте https://jsoneditoronline.org/?id=baa1b887f7d346d09185bca662b9a378  
+И вставить json текст ниже  
 
 {
   "helper": {
